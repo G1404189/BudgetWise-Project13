@@ -1,0 +1,33 @@
+✔ Converts pounds to integer pence exactly (1.347794ms)
+✔ Accepts a one penny amount (0.206825ms)
+✔ Rejects negative, zero, exponential and excess precision inputs (0.485414ms)
+✔ Validates actual calendar dates including leap years (2.032271ms)
+✔ Rejects category/type mismatch (0.439296ms)
+✔ Rejects fractional pence in stored records (0.280143ms)
+✔ Rejects descriptions exceeding 120 characters (0.189749ms)
+✔ Treats descriptive markup as plain data (0.269617ms)
+✔ Create leaves input collection unchanged (0.491053ms)
+✔ Edit replaces the same identifier without duplication (0.452616ms)
+✔ Delete removes only selected transaction (1.696307ms)
+✔ Monthly filtering excludes adjacent months (0.376444ms)
+✔ Empty month returns finite zero totals (0.19704ms)
+✔ Income and expense totals produce correct balance (0.187756ms)
+✔ Edit updates balance to expected 720 pounds (0.245601ms)
+✔ Delete restores expected 800 pound balance (0.318498ms)
+✔ Allows a negative balance without hiding overspending (0.12865ms)
+✔ Separates needs and wants and aggregates categories (0.185943ms)
+✔ Reproduces planning dataset totals (0.331638ms)
+✔ Backup validation rejects unknown versions (4.415609ms)
+✔ Backup validation rejects duplicate identifiers (0.18337ms)
+✔ Backup validation rejects invalid budget amounts and months (0.274625ms)
+✔ Zero category budget is valid (0.203769ms)
+✔ Persistence round trip retains all records and budgets (0.73357ms)
+✔ Storage failure propagates without altering caller state (0.240534ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 141.335054

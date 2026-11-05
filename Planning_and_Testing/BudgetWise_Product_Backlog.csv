@@ -1,0 +1,13 @@
+ID,Priority,Owner,Feature,Acceptance criterion,Status
+BW01,Must,Teodor,Record income and expenses,Valid entries appear in history and update the correct month.,Review supplied implementation
+BW02,Must,Teodor,Edit and delete transactions,Edit keeps one ID; delete asks for confirmation and updates totals.,Review supplied implementation
+BW03,Must,Teodor,Monthly summary,Balance equals income minus needs minus wants in integer pence.,Review supplied implementation
+BW04,Must,Teodor,Save records locally,Reload retains valid state on the same origin; save failures are reported.,Review supplied implementation
+BW05,Must,Rauf / Teodor,Accessible responsive screens,"Labels, keyboard access and narrow-screen layout pass manual checks.",Review supplied implementation
+BW06,Must,Alin,Needs / Wants chart,Chart and numerical values match the same calculated totals.,Review supplied implementation
+BW07,Should,Teodor,Monthly category budgets,Each month retains its own limits; zero means no limit.,Review supplied implementation
+BW08,Should,Teodor,"Search, filter and sort",History search and controls operate on the selected month.,Review supplied implementation
+BW09,Should,Teodor / Alin,Backup export and import,Valid JSON round-trips; invalid backup leaves records unchanged.,Review supplied implementation
+BW10,Must,Alin / team,Test evidence and defect review,Automated results retained; manual checks recorded honestly.,Review supplied implementation
+BW11,Must,Maria / Juan Carlos,Research and project documentation,"Requirements, schedule, meeting records and decisions are traceable.",Review supplied implementation
+BW12,Must,All,"Article, slides and viva",Each member can explain their contribution and project limitations.,Review supplied implementation

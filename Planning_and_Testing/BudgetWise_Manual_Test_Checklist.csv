@@ -1,0 +1,9 @@
+ID,Check,Expected result,Actual result,Status,Tester,Date
+UI01,Desktop navigation,Open each of the five routes; correct active item and content; no console errors.,,Not run,,
+UI02,Mobile / keyboard,Check 390px and 768px widths; all actions reachable; visible focus; labelled inputs.,,Not run,,
+UI03,Form errors,Try invalid amount/date; see understandable error; no invalid record saved.,,Not run,,
+UI04,Real persistence,Add record; reload same origin; record remains. Block storage; see save warning.,,Not run,,
+UI05,Budgets / charts,Save limits; confirm progress and chart values after add/edit/delete.,,Not run,,
+UI06,Backup files,Download JSON; import it after confirmation; malformed file preserves state.,,Not run,,
+UI07,Destructive actions,Cancel delete / clear / demo replacement; no records change.,,Not run,,
+UI08,Usability,Consenting users complete standard tasks; record actual errors and comments.,,Not run,,
